@@ -26,4 +26,39 @@
     .menu-bar-icon {
         display: block;
     }
+
+    /* hero section  */
+    .hero-container {
+        max-width: 335px;
+        min-height: 483px;
+    }
+
+    .hero-container h1 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .hero-container p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .form-container {}
+
+    .form-container form {
+        margin-top: 32px;
+        flex-direction: column;
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+    }
+
+    .form-container form input {
+        width: 100%;
+    }
+
 }
