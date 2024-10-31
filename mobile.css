@@ -43,8 +43,6 @@
         line-height: 21px;
     }
 
-    .form-container {}
-
     .form-container form {
         margin-top: 32px;
         flex-direction: column;
@@ -62,8 +60,8 @@
     }
 
     /* tour section responsive  */
-    .tour-section {
-        margin-top: 32px;
+    section {
+        margin-top: 24px;
     }
 
     .tour-container {
@@ -100,5 +98,45 @@
 
     .tour-img-container img {
         max-width: 335px;
+    }
+
+    /* destination section responsive  */
+    .destination-container>h1 {
+        font-size: 20px;
+    }
+
+    .destination-container p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .destination-gallery-container {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        height: 176px;
+    }
+
+    .maldives h1,
+    .indonesia h1,
+    .srilanka h1,
+    .north-america h1,
+    .kashmir h1,
+    .bangladesh h1,
+    .bandarban h1 {
+        font-size: 20px;
+        font-weight: 700;
     }
 }
