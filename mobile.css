@@ -61,4 +61,44 @@
         width: 100%;
     }
 
+    /* tour section responsive  */
+    .tour-section {
+        margin-top: 32px;
+    }
+
+    .tour-container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .tour-text-container h1 {
+        font-size: 20px;
+    }
+
+    .tour-text-container p {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+    }
+
+    .tour-text-container ul {
+        margin-top: 16px;
+    }
+
+    .tour-text-container ul li {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+
+    }
+
+    .tour-text-container button {
+        margin-top: 24px;
+    }
+
+    .tour-img-container img {
+        max-width: 335px;
+    }
 }
