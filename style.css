@@ -519,7 +519,7 @@ section {
 }
 
 .deals-container .card-wrapper {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
     height: 500px;
     flex-shrink: 0;
@@ -534,7 +534,7 @@ section {
 }
 
 .deals-container .card-wrapper:nth-child(even) {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
     height: 500px;
     flex-shrink: 0;
@@ -552,7 +552,7 @@ section {
 
 
 .deals-container .card-wrapper .card-container {
-    max-width: 579px;
+    width: 579px;
     height: 389px;
     flex-shrink: 0;
 

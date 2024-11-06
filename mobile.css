@@ -211,7 +211,7 @@
     }
 
     .deals-container .card-wrapper {
-        max-width: 335px;
+        width: 335px;
 
         display: flex;
         justify-content: center;
@@ -219,7 +219,7 @@
     }
 
     .deals-container .card-wrapper:nth-child(even) {
-        max-width: 335px;
+        width: 335px;
         justify-content: center;
         align-items: end;
     }
@@ -228,7 +228,7 @@
 
 
     .deals-container .card-wrapper .card-container {
-        max-width: 303px;
+        width: 303px;
         height: 297px;
 
         padding: 24px;
