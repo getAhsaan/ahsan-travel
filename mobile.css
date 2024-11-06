@@ -139,4 +139,53 @@
         font-size: 20px;
         font-weight: 700;
     }
+
+    /* choose us section responsive  */
+    .choose-us-container h1 {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+    .choose-us-container p {
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+    }
+
+    .choose-us-container .card-container {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choose-us-container .card-container .card {
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+
+    }
+
+    .choose-us-container .card-container .card img {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+
+    }
+
+    .choose-us-container .card-container .card h2 {
+        font-size: 20px;
+        margin-top: 16px;
+
+    }
+
+    .choose-us-container .card-container .card p {
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+
+    }
 }

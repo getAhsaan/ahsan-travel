@@ -385,3 +385,96 @@ section {
     grid-column: 6/13;
     grid-row: 3/4;
 }
+
+/* choose us section  */
+.choose-us-container h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin-bottom: 24px;
+}
+
+.choose-us-container p {
+    max-width: 643px;
+    margin: 0 auto;
+
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.choose-us-container .card-container {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-us-container .card-container .card {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    padding: 32px;
+
+}
+
+.choose-us-container .card-container .card img {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+
+}
+
+.choose-us-container .card-container .card h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+}
+
+.choose-us-container .card-container .card p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    /* 162.5% */
+
+}
+
+.choose-us-container .card-container .card:nth-child(1) {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-us-container .card-container .card:nth-child(2) {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-us-container .card-container .card:nth-child(3) {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
