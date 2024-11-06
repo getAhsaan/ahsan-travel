@@ -478,3 +478,202 @@ section {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
+/* deals section  */
+.deals-container .deals-container-text {
+    margin-bottom: 48px;
+}
+
+.deals-container .deals-container-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin-bottom: 24px;
+}
+
+.deals-container .deals-container-text p {
+    max-width: 643px;
+    margin: 0 auto;
+
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.deals-container .card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.deals-container .card-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 500px;
+    flex-shrink: 0;
+    background-image: url("Images/resort1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.deals-container .card-wrapper:nth-child(even) {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 500px;
+    flex-shrink: 0;
+    background-image: url("Images/resort2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+
+.deals-container .card-wrapper .card-container {
+    max-width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+
+    padding: 50px;
+
+    margin: 56px;
+}
+
+.deals-container .card-wrapper .card-container .card-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+}
+
+.deals-container .card-wrapper .card-container .card-header p {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deals-container .card-wrapper .card-container .card-body {
+    margin: 24px 0;
+}
+
+.deals-container .card-wrapper .card-container .card-body h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-container .card-wrapper .card-container .card-body p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 16px 0;
+}
+
+.deals-container .card-wrapper .card-container .card-body h4 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-container .card-wrapper .card-container .card-footer button {
+    border-radius: 8px;
+    background: #FF5400;
+
+    padding: 14px 24px;
+
+    border: 2px solid transparent;
+    outline: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+.deals-container .card-wrapper .card-container .card-footer button:hover {
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.deals-container .packages-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-container .packages-btn button {
+    margin-top: 48px;
+
+    border-radius: 8px;
+    background: #FF5400;
+
+    padding: 14px 24px;
+
+    border: 2px solid transparent;
+    outline: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+.deals-container .packages-btn button:hover {
+    border: 2px solid black;
+    transition: 0.5s;
+}

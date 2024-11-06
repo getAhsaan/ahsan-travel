@@ -188,4 +188,100 @@
         /* 162.5% */
 
     }
+
+    /* deals section responsive */
+    .deals-container .deals-container-text {
+        margin-bottom: 16px;
+    }
+
+    .deals-container .deals-container-text h1 {
+        font-size: 20px;
+
+        margin-bottom: 16px;
+    }
+
+    .deals-container .deals-container-text p {
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+    }
+
+    .deals-container .card-wrapper-container {
+        gap: 16px;
+    }
+
+    .deals-container .card-wrapper {
+        max-width: 335px;
+
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .deals-container .card-wrapper:nth-child(even) {
+        max-width: 335px;
+        justify-content: center;
+        align-items: end;
+    }
+
+
+
+
+    .deals-container .card-wrapper .card-container {
+        max-width: 303px;
+        height: 297px;
+
+        padding: 24px;
+
+        margin: 16px;
+    }
+
+    .deals-container .card-wrapper .card-container .card-header {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+
+
+    .deals-container .card-wrapper .card-container .card-body {
+        margin: 16px 0;
+    }
+
+    .deals-container .card-wrapper .card-container .card-body h2 {
+        font-size: 20px;
+    }
+
+    .deals-container .card-wrapper .card-container .card-body p {
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+        margin: 8px 0;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+
+    .deals-container .card-wrapper .card-container .card-body h4 {
+        font-size: 16px;
+    }
+
+    .deals-container .card-wrapper .card-container .card-footer button {
+
+        padding: 8px 20px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    /* .deals-container .card-wrapper .card-container .card-footer button:hover {
+        border: 2px solid black;
+        transition: 0.5s;
+    } */
+
+    .deals-container .packages-btn {
+        display: none;
+    }
+
 }
