@@ -378,4 +378,50 @@
         font-size: 21px;
     }
 
+    /* footer  */
+    footer {
+        margin-top: 24px;
+        height: 309px;
+    }
+
+    .footer-container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+    .footer-logo {
+        gap: 8px;
+    }
+
+    .footer-logo img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .footer-logo h1 {
+        font-size: 21px;
+    }
+
+    .footer-logo h1 .travel {
+        font-size: 21px;
+    }
+
+    .footer-container p {
+        font-size: 14px;
+        line-height: 24px;
+        /* 162.5% */
+    }
+
+    .social-logo{
+        gap: 32px;
+    }
+
+    .footer-container hr {
+       margin: 24px 0;
+    }
+
+
+    .footer-container .copyright {
+        font-size: 14px;
+    }
 }
