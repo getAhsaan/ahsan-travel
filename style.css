@@ -895,7 +895,7 @@ section {
 
 .newsletter-img .save:hover {
     transform: rotate(0deg);
-    transition: 1s;
+    transition: all 1s;
 }
 
 .newsletter-img .save p {
